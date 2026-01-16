@@ -1,0 +1,251 @@
+/* ModuleProgress Component Styles */
+
+.modules {
+  padding: 4rem 0;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+}
+
+.moduleCard {
+  background: white;
+  border-radius: 12px;
+  padding: 1.5rem;
+  margin: 1rem;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  color: #333;
+  position: relative;
+  overflow: hidden;
+}
+
+.moduleCard:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 15px 40px rgba(0,0,0,0.15);
+}
+
+.moduleCard::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 4px;
+  background: var(--primary-color);
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform 0.3s ease;
+}
+
+.moduleCard:hover::before {
+  transform: scaleX(1);
+}
+
+.moduleHeader {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+  position: relative;
+}
+
+.moduleIcon {
+  font-size: 2rem;
+  margin-right: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background: rgba(46, 133, 85, 0.1);
+  color: var(--primary-color);
+}
+
+.moduleTitle {
+  flex: 1;
+  margin: 0;
+  font-size: 1.25rem;
+  color: #333;
+  font-weight: var(--font-weight-semibold);
+}
+
+.difficulty {
+  padding: 0.25rem 0.75rem;
+  border-radius: 20px;
+  font-size: 0.875rem;
+  font-weight: var(--font-weight-semibold);
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.difficulty.beginner {
+  background: #dcfce7;
+  color: #166534;
+}
+
+.difficulty.intermediate {
+  background: #fef3c7;
+  color: #92400e;
+}
+
+.difficulty.advanced {
+  background: #fecaca;
+  color: #b91c1c;
+}
+
+.moduleDescription {
+  margin: 1rem 0;
+  color: #666;
+  line-height: 1.6;
+  font-size: 1rem;
+}
+
+.moduleMeta {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 1rem;
+  padding-top: 1rem;
+  border-top: 1px solid #eee;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.duration {
+  color: #888;
+  font-size: 0.875rem;
+  display: flex;
+  align-items: center;
+  gap: 0.25rem;
+}
+
+.moduleActions {
+  margin-top: 1.5rem;
+  text-align: center;
+}
+
+.moduleProgressContainer {
+  margin-top: 1rem;
+  background: #f8f9fa;
+  border-radius: 8px;
+  padding: 1rem;
+}
+
+.progressBar {
+  width: 100%;
+  height: 8px;
+  background-color: #e9ecef;
+  border-radius: 4px;
+  overflow: hidden;
+  margin-bottom: 0.5rem;
+}
+
+.progressFill {
+  height: 100%;
+  background: linear-gradient(90deg, var(--primary-color), var(--primary-light));
+  border-radius: 4px;
+  transition: width 0.3s ease;
+}
+
+.progressText {
+  font-size: 0.75rem;
+  color: #6c757d;
+  text-align: right;
+}
+
+.moduleRoadmap {
+  margin-top: 2rem;
+  padding: 1.5rem;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 8px;
+  backdrop-filter: blur(10px);
+}
+
+.moduleRoadmap h3 {
+  color: white;
+  margin-bottom: 1rem;
+  font-size: 1.25rem;
+}
+
+.roadmapItem {
+  display: flex;
+  align-items: center;
+  padding: 0.75rem 0;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.roadmapItem:last-child {
+  border-bottom: none;
+}
+
+.roadmapIcon {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.2);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 1rem;
+  flex-shrink: 0;
+}
+
+.roadmapTitle {
+  flex: 1;
+  color: white;
+  font-weight: var(--font-weight-medium);
+}
+
+.roadmapStatus {
+  font-size: 0.875rem;
+  padding: 0.25rem 0.75rem;
+  border-radius: 20px;
+  background: rgba(255, 255, 255, 0.2);
+  color: white;
+}
+
+.roadmapStatus.completed {
+  background: rgba(40, 167, 69, 0.3);
+  color: #d4edda;
+}
+
+.roadmapStatus.current {
+  background: rgba(255, 193, 7, 0.3);
+  color: #fff3cd;
+}
+
+.roadmapStatus.upcoming {
+  background: rgba(108, 117, 125, 0.3);
+  color: #e2e3e5;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .modules {
+    padding: 2rem 0;
+  }
+
+  .moduleCard {
+    margin: 1rem 0.5rem;
+    padding: 1rem;
+  }
+
+  .moduleHeader {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .moduleIcon {
+    margin-right: 0;
+    margin-bottom: 1rem;
+  }
+
+  .moduleMeta {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.5rem;
+  }
+
+  .moduleActions {
+    margin-top: 1rem;
+  }
+}

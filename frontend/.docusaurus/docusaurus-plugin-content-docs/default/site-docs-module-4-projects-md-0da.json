@@ -1,0 +1,27 @@
+{
+  "id": "module4/projects",
+  "title": "Module 4 Projects: Vision-Language-Action Integration",
+  "description": "In this section, you'll work on comprehensive projects that integrate all the concepts learned in the previous modules to create complete Vision-Language-Action systems.",
+  "source": "@site/docs/module4/projects.md",
+  "sourceDirName": "module4",
+  "slug": "/module4/projects",
+  "permalink": "/Physical-AI-Book/docs/module4/projects",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/module4/projects.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 4,
+  "frontMatter": {
+    "sidebar_position": 4
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "VLA System Integration",
+    "permalink": "/Physical-AI-Book/docs/module4/integration"
+  },
+  "next": {
+    "title": "Module 4 Conclusion",
+    "permalink": "/Physical-AI-Book/docs/module4/conclusion"
+  }
+}

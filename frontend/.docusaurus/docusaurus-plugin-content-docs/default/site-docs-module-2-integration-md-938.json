@@ -1,0 +1,27 @@
+{
+  "id": "module2/integration",
+  "title": "Integrating Simulation with ROS 2",
+  "description": "In this section, we'll explore how to tightly integrate Gazebo simulation with your ROS 2 nodes from Module 1, creating a seamless development workflow.",
+  "source": "@site/docs/module2/integration.md",
+  "sourceDirName": "module2",
+  "slug": "/module2/integration",
+  "permalink": "/Physical-AI-Book/docs/module2/integration",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/module2/integration.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 4,
+  "frontMatter": {
+    "sidebar_position": 4
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Unity Simulation Environment",
+    "permalink": "/Physical-AI-Book/docs/module2/unity"
+  },
+  "next": {
+    "title": "Module 2 Projects",
+    "permalink": "/Physical-AI-Book/docs/module2/projects"
+  }
+}

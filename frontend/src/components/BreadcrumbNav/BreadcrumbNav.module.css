@@ -1,0 +1,135 @@
+/* BreadcrumbNav Component Styles */
+
+.breadcrumbNav {
+  padding: 1rem 0;
+  background: var(--bg-secondary);
+  border-bottom: 1px solid var(--border-color);
+}
+
+.breadcrumbList {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.breadcrumbItem {
+  display: flex;
+  align-items: center;
+  font-size: var(--font-size-sm);
+}
+
+.breadcrumbItem:not(:last-child)::after {
+  content: '/';
+  margin: 0 0.75rem;
+  color: var(--text-muted);
+  font-weight: var(--font-weight-bold);
+}
+
+.breadcrumbLink {
+  color: var(--text-primary);
+  text-decoration: none;
+  transition: color var(--transition-fast);
+  display: flex;
+  align-items: center;
+  gap: 0.25rem;
+}
+
+.breadcrumbLink:hover {
+  color: var(--primary-color);
+  text-decoration: underline;
+}
+
+.breadcrumbLink.current {
+  color: var(--text-muted);
+  cursor: default;
+  text-decoration: none;
+  font-weight: var(--font-weight-semibold);
+}
+
+.breadcrumbLink.current:hover {
+  color: var(--text-muted);
+  text-decoration: none;
+}
+
+.breadcrumbIcon {
+  font-size: var(--font-size-xs);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .breadcrumbNav {
+    padding: 0.75rem 0;
+  }
+
+  .breadcrumbList {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.25rem;
+  }
+
+  .breadcrumbItem {
+    font-size: var(--font-size-xs);
+  }
+
+  .breadcrumbItem:not(:last-child)::after {
+    display: none;
+  }
+
+  .breadcrumbItem:not(:last-child) {
+    margin-bottom: 0.25rem;
+  }
+}
+
+/* Alternative compact style */
+.breadcrumbNav.compact {
+  padding: 0.5rem 0;
+  background: transparent;
+  border: none;
+}
+
+.breadcrumbNav.compact .breadcrumbList {
+  font-size: var(--font-size-xs);
+}
+
+/* Dark mode support */
+@media (prefers-color-scheme: dark) {
+  .breadcrumbNav {
+    background: var(--bg-dark);
+    border-bottom-color: var(--border-dark);
+  }
+
+  .breadcrumbLink {
+    color: var(--text-light);
+  }
+
+  .breadcrumbLink:hover {
+    color: var(--primary-light);
+  }
+
+  .breadcrumbItem:not(:last-child)::after {
+    color: var(--text-gray);
+  }
+
+  .breadcrumbLink.current {
+    color: var(--text-gray);
+  }
+}
+
+/* Accessibility */
+.breadcrumbLink:focus {
+  outline: 2px solid var(--primary-color);
+  outline-offset: 2px;
+  border-radius: var(--border-radius-sm);
+}
+
+/* Animation for smooth transitions */
+.breadcrumbLink {
+  transition: all var(--transition-normal) ease-in-out;
+}
+
+.breadcrumbLink:active {
+  transform: scale(0.98);
+}

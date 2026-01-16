@@ -1,0 +1,72 @@
+version: '3.8'
+
+services:
+  backend:
+    build:
+      context: .
+      dockerfile: Dockerfile
+      target: backend-runtime
+    container_name: physical_ai_book_backend
+    ports:
+      - "8000:8000"
+    env_file:
+      - .env
+    environment:
+      - BACKEND_HOST=0.0.0.0
+      - DATABASE_URL=${DATABASE_URL}
+      - QDRANT_URL=${QDRANT_URL}
+      - OPENAI_API_KEY=${OPENAI_API_KEY}
+    volumes:
+      - ./backend/src:/app/backend/src
+      - ./backend/tests:/app/backend/tests
+    depends_on:
+      - qdrant
+      - postgres
+    networks:
+      - physical_ai_network
+
+  frontend:
+    build:
+      context: .
+      dockerfile: Dockerfile
+      target: frontend-runtime
+    container_name: physical_ai_book_frontend
+    ports:
+      - "3000:80"
+    depends_on:
+      - backend
+    networks:
+      - physical_ai_network
+
+  qdrant:
+    image: qdrant/qdrant:latest
+    container_name: qdrant_server
+    ports:
+      - "6333:6333"
+      - "6334:6334"
+    volumes:
+      - qdrant_data:/qdrant/storage
+    networks:
+      - physical_ai_network
+
+  postgres:
+    image: neon/neon:latest
+    container_name: neon_postgres
+    ports:
+      - "5432:5432"
+    environment:
+      - POSTGRES_DB=physical_ai_book
+      - POSTGRES_USER=user
+      - POSTGRES_PASSWORD=password
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    networks:
+      - physical_ai_network
+
+volumes:
+  qdrant_data:
+  postgres_data:
+
+networks:
+  physical_ai_network:
+    driver: bridge

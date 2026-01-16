@@ -1,0 +1,27 @@
+{
+  "id": "module4/integration",
+  "title": "VLA System Integration",
+  "description": "In this section, we'll integrate all components from previous modules to create a complete Vision-Language-Action system that can understand natural language commands and execute them in simulation.",
+  "source": "@site/docs/module4/integration.md",
+  "sourceDirName": "module4",
+  "slug": "/module4/integration",
+  "permalink": "/Physical-AI-Book/docs/module4/integration",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/module4/integration.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Vision-Language-Action (VLA) Systems",
+    "permalink": "/Physical-AI-Book/docs/module4/vla"
+  },
+  "next": {
+    "title": "Module 4 Projects: Vision-Language-Action Integration",
+    "permalink": "/Physical-AI-Book/docs/module4/projects"
+  }
+}

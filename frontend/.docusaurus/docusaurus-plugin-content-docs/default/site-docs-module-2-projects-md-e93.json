@@ -1,0 +1,27 @@
+{
+  "id": "module2/projects",
+  "title": "Module 2 Projects",
+  "description": "In this section, you'll work on hands-on projects that apply the concepts learned about digital twins and simulation environments.",
+  "source": "@site/docs/module2/projects.md",
+  "sourceDirName": "module2",
+  "slug": "/module2/projects",
+  "permalink": "/Physical-AI-Book/docs/module2/projects",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/module2/projects.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 5,
+  "frontMatter": {
+    "sidebar_position": 5
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Integrating Simulation with ROS 2",
+    "permalink": "/Physical-AI-Book/docs/module2/integration"
+  },
+  "next": {
+    "title": "Module 3: AI-Robot Brain (NVIDIA Isaac)",
+    "permalink": "/Physical-AI-Book/docs/module3/intro"
+  }
+}

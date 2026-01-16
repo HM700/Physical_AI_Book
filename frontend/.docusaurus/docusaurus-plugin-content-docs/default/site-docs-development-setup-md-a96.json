@@ -1,0 +1,18 @@
+{
+  "id": "development-setup",
+  "title": "Development Setup",
+  "description": "This guide explains how to set up your development environment for contributing to the Physical AI Book project.",
+  "source": "@site/docs/development-setup.md",
+  "sourceDirName": ".",
+  "slug": "/development-setup",
+  "permalink": "/Physical-AI-Book/docs/development-setup",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/development-setup.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 98,
+  "frontMatter": {
+    "sidebar_position": 98
+  }
+}

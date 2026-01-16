@@ -1,0 +1,149 @@
+{
+  "docusaurus-plugin-content-docs": {
+    "default": {
+      "path": "/Physical-AI-Book/docs",
+      "versions": [
+        {
+          "name": "current",
+          "label": "Next",
+          "isLast": true,
+          "path": "/Physical-AI-Book/docs",
+          "mainDocId": "intro",
+          "docs": [
+            {
+              "id": "about",
+              "path": "/Physical-AI-Book/docs/about"
+            },
+            {
+              "id": "conclusion",
+              "path": "/Physical-AI-Book/docs/conclusion"
+            },
+            {
+              "id": "development-setup",
+              "path": "/Physical-AI-Book/docs/development-setup"
+            },
+            {
+              "id": "faq",
+              "path": "/Physical-AI-Book/docs/faq"
+            },
+            {
+              "id": "intro",
+              "path": "/Physical-AI-Book/docs/intro",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "module1/basics",
+              "path": "/Physical-AI-Book/docs/module1/basics",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "module1/intro",
+              "path": "/Physical-AI-Book/docs/module1/intro",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "module1/nodes",
+              "path": "/Physical-AI-Book/docs/module1/nodes",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "module1/projects",
+              "path": "/Physical-AI-Book/docs/module1/projects",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "module1/topics",
+              "path": "/Physical-AI-Book/docs/module1/topics",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "module2/gazebo",
+              "path": "/Physical-AI-Book/docs/module2/gazebo",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "module2/integration",
+              "path": "/Physical-AI-Book/docs/module2/integration",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "module2/intro",
+              "path": "/Physical-AI-Book/docs/module2/intro",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "module2/projects",
+              "path": "/Physical-AI-Book/docs/module2/projects",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "module2/unity",
+              "path": "/Physical-AI-Book/docs/module2/unity",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "module3/intro",
+              "path": "/Physical-AI-Book/docs/module3/intro",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "module3/isaac",
+              "path": "/Physical-AI-Book/docs/module3/isaac",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "module3/navigation",
+              "path": "/Physical-AI-Book/docs/module3/navigation",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "module3/perception",
+              "path": "/Physical-AI-Book/docs/module3/perception",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "module3/projects",
+              "path": "/Physical-AI-Book/docs/module3/projects",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "module4/conclusion",
+              "path": "/Physical-AI-Book/docs/module4/conclusion",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "module4/integration",
+              "path": "/Physical-AI-Book/docs/module4/integration",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "module4/intro",
+              "path": "/Physical-AI-Book/docs/module4/intro",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "module4/projects",
+              "path": "/Physical-AI-Book/docs/module4/projects",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "module4/vla",
+              "path": "/Physical-AI-Book/docs/module4/vla",
+              "sidebar": "tutorialSidebar"
+            }
+          ],
+          "draftIds": [],
+          "sidebars": {
+            "tutorialSidebar": {
+              "link": {
+                "path": "/Physical-AI-Book/docs/intro",
+                "label": "intro"
+              }
+            }
+          }
+        }
+      ],
+      "breadcrumbs": true
+    }
+  }
+}

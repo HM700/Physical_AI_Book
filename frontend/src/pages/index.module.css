@@ -1,0 +1,73 @@
+/**
+ * CSS files with the .module.css suffix will be treated as CSS modules
+ * and scoped locally.
+ */
+
+.heroBanner {
+  padding: 4rem 0;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+}
+
+@media screen and (max-width: 996px) {
+  .heroBanner {
+    padding: 2rem;
+  }
+}
+
+.buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.features {
+  padding: 4rem 0;
+  width: 100%;
+}
+
+.featureSvg {
+  height: 200px;
+  width: 200px;
+}
+
+/* Module Progress Section */
+.moduleProgressSection {
+  padding: 2rem 0;
+}
+
+/* Interactive Code Section */
+.interactiveCodeSection {
+  padding: 2rem 0;
+}
+
+/* Exercise Cards Section */
+.exerciseCardsSection {
+  padding: 2rem 0;
+}
+
+/* Chat Panel Section */
+.chatPanelSection {
+  padding: 2rem 0;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .heroBanner {
+    padding: 2rem 1rem;
+  }
+
+  .buttons {
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .features .row {
+    flex-direction: column;
+  }
+
+  .features .col {
+    margin-bottom: 2rem;
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "id": "module3/projects",
+  "title": "Module 3 Projects",
+  "description": "In this section, you'll work on hands-on projects that apply the concepts learned about AI-Robot brains, Isaac Sim, and perception/navigation systems.",
+  "source": "@site/docs/module3/projects.md",
+  "sourceDirName": "module3",
+  "slug": "/module3/projects",
+  "permalink": "/Physical-AI-Book/docs/module3/projects",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/module3/projects.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 5,
+  "frontMatter": {
+    "sidebar_position": 5
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Navigation and Path Planning",
+    "permalink": "/Physical-AI-Book/docs/module3/navigation"
+  },
+  "next": {
+    "title": "Module 4: Vision-Language-Action (VLA)",
+    "permalink": "/Physical-AI-Book/docs/module4/intro"
+  }
+}

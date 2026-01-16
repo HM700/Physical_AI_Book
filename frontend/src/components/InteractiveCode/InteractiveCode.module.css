@@ -1,0 +1,180 @@
+/* InteractiveCode Component Styles */
+
+.interactiveCode {
+  margin: 1.5rem 0;
+  border-radius: var(--border-radius-lg);
+  overflow: hidden;
+  position: relative;
+  background: #2d3748;
+  color: #e2e8f0;
+  font-family: 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace;
+  box-shadow: var(--shadow-md);
+}
+
+.codeHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.75rem 1rem;
+  background: #4a5568;
+  border-bottom: 1px solid #718096;
+}
+
+.codeTitle {
+  margin: 0;
+  font-size: var(--font-size-sm);
+  font-weight: var(--font-weight-semibold);
+  color: #e2e8f0;
+}
+
+.codeActions {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.copyButton, .expandButton {
+  background: #2d3748;
+  color: #e2e8f0;
+  border: 1px solid #4a5568;
+  padding: 0.25rem 0.5rem;
+  border-radius: var(--border-radius-sm);
+  font-size: var(--font-size-xs);
+  cursor: pointer;
+  transition: all var(--transition-fast);
+}
+
+.copyButton:hover, .expandButton:hover {
+  background: #4a5568;
+  border-color: #718096;
+}
+
+.copyButton:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.codeBlock {
+  margin: 0;
+  padding: 1rem;
+  overflow-x: auto;
+  max-height: 400px;
+  overflow-y: auto;
+  font-size: var(--font-size-sm);
+  line-height: 1.5;
+  background: #2d3748;
+  color: #e2e8f0;
+}
+
+.codeBlock code {
+  background: none;
+  padding: 0;
+  border: none;
+  font-size: inherit;
+}
+
+.codeHint {
+  padding: 0.75rem 1rem;
+  background: #2d3748;
+  border-top: 1px solid #4a5568;
+  font-size: var(--font-size-sm);
+  color: #a0aec0;
+  font-style: italic;
+}
+
+/* Syntax highlighting (basic) */
+.codeBlock .token.comment {
+  color: #a0aec0;
+  font-style: italic;
+}
+
+.codeBlock .token.punctuation {
+  color: #cbd5e0;
+}
+
+.codeBlock .token.operator {
+  color: #f56565;
+}
+
+.codeBlock .token.keyword {
+  color: #63b3ed;
+}
+
+.codeBlock .token.function {
+  color: #fc8181;
+}
+
+.codeBlock .token.string {
+  color: #68d391;
+}
+
+.codeBlock .token.number {
+  color: #f6ad55;
+}
+
+.codeBlock .token.boolean {
+  color: #ecc94b;
+}
+
+.codeBlock .token.constant {
+  color: #b2f5ea;
+}
+
+.codeBlock .token.property {
+  color: #9f7aea;
+}
+
+.codeBlock .token.variable {
+  color: #fc8181;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .interactiveCode {
+    margin: 1rem 0;
+  }
+
+  .codeHeader {
+    flex-direction: column;
+    gap: 0.5rem;
+    align-items: flex-start;
+  }
+
+  .codeActions {
+    align-self: flex-end;
+  }
+
+  .codeBlock {
+    padding: 0.75rem;
+    font-size: var(--font-size-xs);
+  }
+
+  .codeHint {
+    font-size: var(--font-size-xs);
+  }
+}
+
+/* Animation for copy feedback */
+.copyButton.copied {
+  background: #48bb78;
+  color: white;
+}
+
+/* Scrollbar styling */
+.codeBlock::-webkit-scrollbar {
+  height: 8px;
+  width: 8px;
+}
+
+.codeBlock::-webkit-scrollbar-track {
+  background: #4a5568;
+  border-radius: 4px;
+}
+
+.codeBlock::-webkit-scrollbar-thumb {
+  background: #718096;
+  border-radius: 4px;
+}
+
+.codeBlock::-webkit-scrollbar-thumb:hover {
+  background: #8094a8;
+}

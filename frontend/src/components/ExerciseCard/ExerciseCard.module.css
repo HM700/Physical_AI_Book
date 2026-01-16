@@ -1,0 +1,218 @@
+/* ExerciseCard Component Styles */
+
+.exerciseCard {
+  margin: 1.5rem 0;
+  padding: 1.5rem;
+  border: 2px solid var(--border-color);
+  border-radius: var(--border-radius-lg);
+  background: var(--bg-primary);
+  position: relative;
+  overflow: hidden;
+  transition: all var(--transition-normal);
+}
+
+.exerciseCard:hover {
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-lg);
+  border-color: var(--primary-color);
+}
+
+.exerciseCard.project {
+  border-left: 4px solid #4c51bf; /* Purple accent for projects */
+}
+
+.exerciseCard.challenge {
+  border-left: 4px solid #e53e3e; /* Red accent for challenges */
+}
+
+.exerciseCard.exercise {
+  border-left: 4px solid #38a169; /* Green accent for exercises */
+}
+
+.exerciseHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 1rem;
+  gap: 1rem;
+}
+
+.exerciseMeta {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.badge {
+  padding: 0.25rem 0.75rem;
+  border-radius: var(--border-radius-full);
+  font-size: var(--font-size-xs);
+  font-weight: var(--font-weight-bold);
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.badge.difficulty {
+  background: var(--tag-bg);
+  color: var(--tag-text);
+}
+
+.badge.duration {
+  background: var(--tag-bg-secondary);
+  color: var(--tag-text-secondary);
+}
+
+.exerciseTitle {
+  margin: 0 0 0.5rem 0;
+  font-size: var(--font-size-lg);
+  font-weight: var(--font-weight-bold);
+  color: var(--text-primary);
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.exerciseIcon {
+  font-size: 1.25rem;
+}
+
+.exerciseContent {
+  margin-bottom: 1.5rem;
+  color: var(--text-secondary);
+  line-height: 1.6;
+}
+
+.exerciseContent p {
+  margin-bottom: 1rem;
+}
+
+.exerciseContent ul, .exerciseContent ol {
+  margin: 1rem 0;
+  padding-left: 1.5rem;
+}
+
+.exerciseContent li {
+  margin-bottom: 0.5rem;
+}
+
+.exerciseFooter {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 1rem;
+  border-top: 1px solid var(--border-color-light);
+}
+
+.startButton {
+  background: var(--primary-color);
+  color: white;
+  border: none;
+  padding: 0.5rem 1.5rem;
+  border-radius: var(--border-radius-full);
+  font-weight: var(--font-weight-semibold);
+  cursor: pointer;
+  transition: all var(--transition-fast);
+}
+
+.startButton:hover {
+  background: var(--primary-hover);
+  transform: translateY(-1px);
+  box-shadow: var(--shadow-md);
+}
+
+.typeIndicator {
+  padding: 0.25rem 0.75rem;
+  border-radius: var(--border-radius-full);
+  font-size: var(--font-size-xs);
+  font-weight: var(--font-weight-bold);
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.typeIndicator.project {
+  background: #ebf4ff;
+  color: #4c51bf;
+}
+
+.typeIndicator.challenge {
+  background: #fed7d7;
+  color: #c53030;
+}
+
+.typeIndicator.exercise {
+  background: #e6fffa;
+  color: #38a169;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .exerciseCard {
+    padding: 1rem;
+    margin: 1rem 0;
+  }
+
+  .exerciseHeader {
+    flex-direction: column;
+    gap: 0.75rem;
+  }
+
+  .exerciseMeta {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+
+  .exerciseFooter {
+    flex-direction: column;
+    gap: 1rem;
+    align-items: stretch;
+  }
+
+  .startButton {
+    width: 100%;
+    justify-content: center;
+  }
+}
+
+/* Animation for hover effects */
+@keyframes pulse {
+  0% { box-shadow: 0 0 0 0 rgba(76, 81, 191, 0.4); }
+  70% { box-shadow: 0 0 0 10px rgba(76, 81, 191, 0); }
+  100% { box-shadow: 0 0 0 0 rgba(76, 81, 191, 0); }
+}
+
+.exerciseCard.highlighted {
+  animation: pulse 2s infinite;
+  border-color: #4c51bf;
+}
+
+/* Dark mode support */
+@media (prefers-color-scheme: dark) {
+  .exerciseCard {
+    background: var(--bg-dark);
+    border-color: var(--border-dark);
+  }
+
+  .exerciseTitle {
+    color: var(--text-white);
+  }
+
+  .exerciseContent {
+    color: var(--text-gray);
+  }
+
+  .badge {
+    background: #4a5568;
+    color: #e2e8f0;
+  }
+}
+
+/* Accessibility */
+.exerciseCard:focus-within {
+  outline: 2px solid var(--primary-color);
+  outline-offset: 2px;
+}
+
+.startButton:focus {
+  outline: 2px solid var(--primary-color);
+  outline-offset: 2px;
+}
