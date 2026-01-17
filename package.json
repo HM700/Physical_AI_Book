@@ -8,5 +8,9 @@
   },
   "engines": {
     "node": ">=20.0"
+  },
+  "devDependencies": {
+    "@docusaurus/core": "^3.9.2",
+    "@docusaurus/preset-classic": "^3.9.2"
   }
 }
