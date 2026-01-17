@@ -82,7 +82,8 @@
       "Bash(git commit -m \"Configure Docusaurus for GitHub Pages deployment\n\n- Updated docusaurus.config.js with correct GitHub Pages settings\n- Fixed organizationName and projectName to match GitHub username/repo\n- Updated editUrl to point to correct repository\n- Added GitHub Actions workflow for automated deployment\n- Configured proper baseUrl and URL for GitHub Pages\")",
       "Bash(git push origin master)",
       "Bash(git commit -m \"Fix Node.js version requirement\n\n- Update GitHub Actions workflow to use Node.js 20\n- Update package.json engines field to require Node.js >=20.0\")",
-      "Bash(xargs ls -la)"
+      "Bash(xargs ls -la)",
+      "Bash(git commit -m \"Add logo to correct static/img directory\n\n- Copy logo.svg to frontend/static/img/ directory\n- This ensures the logo is available at the path referenced in docusaurus.config.js\")"
     ]
   }
 }
