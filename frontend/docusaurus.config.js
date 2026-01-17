@@ -19,7 +19,7 @@ const config = {
   baseUrl: '/',
 
   // For Vercel deployment
-  trailingSlash: false,
+  trailingSlash: true,
 
   onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
