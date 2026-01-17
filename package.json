@@ -1,13 +1,14 @@
 {
-  "name": "physical-ai-book-root",
+  "name": "physical-ai-book",
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "build": "cd frontend && npm run build",
+    "build": "cd frontend && npm ci && npm run build",
     "start": "cd frontend && npm run serve",
     "prebuild": "cd frontend && npm install"
   },
   "engines": {
-    "node": "20.x"
+    "node": ">=20.0"
   }
 }
+
