@@ -91,7 +91,8 @@
       "Bash(npm run build --verbose)",
       "Bash(echo \"Exit code: $?\")",
       "Bash(git add package.json)",
-      "Bash(git commit -m \"Fix root package.json for Vercel deployment\n\n- Correct project name to ''physical-ai-book''\n- Set proper build scripts that navigate to frontend directory\n- Remove unnecessary Docusaurus dependencies from root package.json\n- Keep only essential configuration for Vercel deployment\")"
+      "Bash(git commit -m \"Fix root package.json for Vercel deployment\n\n- Correct project name to ''physical-ai-book''\n- Set proper build scripts that navigate to frontend directory\n- Remove unnecessary Docusaurus dependencies from root package.json\n- Keep only essential configuration for Vercel deployment\")",
+      "Bash(git commit -m \"Complete Vercel configuration for Docusaurus deployment\n\n- Add proper vercel.json with version 2 configuration\n- Specify static-build for Docusaurus project\n- Set correct distDir to ''build''\n- Remove build scripts from root package.json to avoid conflicts\n- Configure SPA routing for client-side navigation\")"
     ]
   }
 }
