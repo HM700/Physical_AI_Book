@@ -3,14 +3,11 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "build": "cd frontend && npm install && npm run build",
-    "start": "cd frontend && npm run serve"
+    "build": "cd frontend && npm ci && npm run build",
+    "start": "cd frontend && npm run serve",
+    "prebuild": "cd frontend && npm install"
   },
   "engines": {
     "node": ">=20.0"
-  },
-  "devDependencies": {
-    "@docusaurus/core": "^3.9.2",
-    "@docusaurus/preset-classic": "^3.9.2"
   }
 }
