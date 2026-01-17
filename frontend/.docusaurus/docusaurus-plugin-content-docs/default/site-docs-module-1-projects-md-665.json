@@ -5,10 +5,10 @@
   "source": "@site/docs/module1/projects.md",
   "sourceDirName": "module1",
   "slug": "/module1/projects",
-  "permalink": "/Physical-AI-Book/docs/module1/projects",
+  "permalink": "/docs/module1/projects",
   "draft": false,
   "unlisted": false,
-  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/module1/projects.md",
+  "editUrl": "https://github.com/HM700/Physical_AI_Book/edit/master/frontend/docs/module1/projects.md",
   "tags": [],
   "version": "current",
   "sidebarPosition": 5,
@@ -18,10 +18,10 @@
   "sidebar": "tutorialSidebar",
   "previous": {
     "title": "ROS 2 Topics and Messages",
-    "permalink": "/Physical-AI-Book/docs/module1/topics"
+    "permalink": "/docs/module1/topics"
   },
   "next": {
     "title": "Module 2: Digital Twin (Gazebo & Unity)",
-    "permalink": "/Physical-AI-Book/docs/module2/intro"
+    "permalink": "/docs/module2/intro"
   }
 }

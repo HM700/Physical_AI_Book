@@ -13,8 +13,8 @@
       "calendar": "gregory",
       "path": "en",
       "translate": false,
-      "url": "https://your-docusaurus-site.example.com",
-      "baseUrl": "/Physical-AI-Book/"
+      "url": "https://physical-ai-book.vercel.app",
+      "baseUrl": "/"
     }
   }
 }

@@ -7,10 +7,9 @@ export default {
   "title": "Physical AI Book",
   "tagline": "Learn Physical AI: AI systems that perceive, reason, and act in the physical world",
   "favicon": "img/favicon.ico",
-  "url": "https://github.com/HM700/Physical_AI_Book.git",
-  "baseUrl": "/Physical-AI-Book/",
-  "organizationName": "PhysicalAI",
-  "projectName": "Physical-AI-Book",
+  "url": "https://physical-ai-book.vercel.app",
+  "baseUrl": "/",
+  "trailingSlash": false,
   "onBrokenLinks": "warn",
   "i18n": {
     "defaultLocale": "en",
@@ -26,11 +25,11 @@ export default {
       {
         "docs": {
           "sidebarPath": "./sidebars.js",
-          "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/"
+          "editUrl": "https://github.com/HM700/Physical_AI_Book/edit/master/frontend/"
         },
         "blog": {
           "showReadingTime": true,
-          "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/"
+          "editUrl": "https://github.com/HM700/Physical_AI_Book/edit/master/frontend/"
         },
         "theme": {
           "customCss": "./src/css/custom.css"
@@ -57,7 +56,7 @@ export default {
           "label": "Modules"
         },
         {
-          "href": "https://github.com/PhysicalAI/Physical-AI-Book",
+          "href": "https://github.com/HM700/Physical_AI_Book",
           "label": "GitHub",
           "position": "right"
         }
@@ -106,7 +105,7 @@ export default {
           "items": [
             {
               "label": "GitHub",
-              "href": "https://github.com/PhysicalAI/Physical-AI-Book"
+              "href": "https://github.com/HM700/Physical_AI_Book"
             }
           ]
         }

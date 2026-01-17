@@ -5,10 +5,10 @@
   "source": "@site/docs/module2/integration.md",
   "sourceDirName": "module2",
   "slug": "/module2/integration",
-  "permalink": "/Physical-AI-Book/docs/module2/integration",
+  "permalink": "/docs/module2/integration",
   "draft": false,
   "unlisted": false,
-  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/module2/integration.md",
+  "editUrl": "https://github.com/HM700/Physical_AI_Book/edit/master/frontend/docs/module2/integration.md",
   "tags": [],
   "version": "current",
   "sidebarPosition": 4,
@@ -18,10 +18,10 @@
   "sidebar": "tutorialSidebar",
   "previous": {
     "title": "Unity Simulation Environment",
-    "permalink": "/Physical-AI-Book/docs/module2/unity"
+    "permalink": "/docs/module2/unity"
   },
   "next": {
     "title": "Module 2 Projects",
-    "permalink": "/Physical-AI-Book/docs/module2/projects"
+    "permalink": "/docs/module2/projects"
   }
 }

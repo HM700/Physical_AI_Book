@@ -5,10 +5,10 @@
   "source": "@site/docs/module3/intro.md",
   "sourceDirName": "module3",
   "slug": "/module3/intro",
-  "permalink": "/Physical-AI-Book/docs/module3/intro",
+  "permalink": "/docs/module3/intro",
   "draft": false,
   "unlisted": false,
-  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/module3/intro.md",
+  "editUrl": "https://github.com/HM700/Physical_AI_Book/edit/master/frontend/docs/module3/intro.md",
   "tags": [],
   "version": "current",
   "sidebarPosition": 1,
@@ -18,10 +18,10 @@
   "sidebar": "tutorialSidebar",
   "previous": {
     "title": "Module 2 Projects",
-    "permalink": "/Physical-AI-Book/docs/module2/projects"
+    "permalink": "/docs/module2/projects"
   },
   "next": {
     "title": "NVIDIA Isaac Sim",
-    "permalink": "/Physical-AI-Book/docs/module3/isaac"
+    "permalink": "/docs/module3/isaac"
   }
 }

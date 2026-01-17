@@ -1,4 +1,5 @@
 export default {
+  "0058b4c6": [() => import(/* webpackChunkName: "0058b4c6" */ "@generated/docusaurus-plugin-content-docs/default/p/docs-175.json"), "@generated/docusaurus-plugin-content-docs/default/p/docs-175.json", require.resolveWeak("@generated/docusaurus-plugin-content-docs/default/p/docs-175.json")],
   "0480b142": [() => import(/* webpackChunkName: "0480b142" */ "@site/docs/faq.md"), "@site/docs/faq.md", require.resolveWeak("@site/docs/faq.md")],
   "0dae308e": [() => import(/* webpackChunkName: "0dae308e" */ "@site/docs/module4/projects.md"), "@site/docs/module4/projects.md", require.resolveWeak("@site/docs/module4/projects.md")],
   "0e384e19": [() => import(/* webpackChunkName: "0e384e19" */ "@site/docs/intro.md"), "@site/docs/intro.md", require.resolveWeak("@site/docs/intro.md")],
@@ -29,7 +30,6 @@ export default {
   "b6a7eda7": [() => import(/* webpackChunkName: "b6a7eda7" */ "@site/docs/module4/intro.md"), "@site/docs/module4/intro.md", require.resolveWeak("@site/docs/module4/intro.md")],
   "b7ae3412": [() => import(/* webpackChunkName: "b7ae3412" */ "@site/docs/module1/basics.md"), "@site/docs/module1/basics.md", require.resolveWeak("@site/docs/module1/basics.md")],
   "c4f5d8e4": [() => import(/* webpackChunkName: "c4f5d8e4" */ "@site/src/pages/index.js"), "@site/src/pages/index.js", require.resolveWeak("@site/src/pages/index.js")],
-  "ce4fa0f0": [() => import(/* webpackChunkName: "ce4fa0f0" */ "@generated/docusaurus-plugin-content-docs/default/p/physical-ai-book-docs-a3d.json"), "@generated/docusaurus-plugin-content-docs/default/p/physical-ai-book-docs-a3d.json", require.resolveWeak("@generated/docusaurus-plugin-content-docs/default/p/physical-ai-book-docs-a3d.json")],
   "cf507a39": [() => import(/* webpackChunkName: "cf507a39" */ "@site/docs/module4/vla.md"), "@site/docs/module4/vla.md", require.resolveWeak("@site/docs/module4/vla.md")],
   "dd920d85": [() => import(/* webpackChunkName: "dd920d85" */ "@site/docs/module1/intro.md"), "@site/docs/module1/intro.md", require.resolveWeak("@site/docs/module1/intro.md")],
   "e9303df6": [() => import(/* webpackChunkName: "e9303df6" */ "@site/docs/module2/projects.md"), "@site/docs/module2/projects.md", require.resolveWeak("@site/docs/module2/projects.md")],

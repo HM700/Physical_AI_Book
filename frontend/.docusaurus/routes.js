@@ -3,165 +3,165 @@ import ComponentCreator from '@docusaurus/ComponentCreator';
 
 export default [
   {
-    path: '/Physical-AI-Book/layout',
-    component: ComponentCreator('/Physical-AI-Book/layout', '608'),
+    path: '/layout',
+    component: ComponentCreator('/layout', '1f9'),
     exact: true
   },
   {
-    path: '/Physical-AI-Book/docs',
-    component: ComponentCreator('/Physical-AI-Book/docs', '232'),
+    path: '/docs',
+    component: ComponentCreator('/docs', '475'),
     routes: [
       {
-        path: '/Physical-AI-Book/docs',
-        component: ComponentCreator('/Physical-AI-Book/docs', '7b7'),
+        path: '/docs',
+        component: ComponentCreator('/docs', '4c6'),
         routes: [
           {
-            path: '/Physical-AI-Book/docs',
-            component: ComponentCreator('/Physical-AI-Book/docs', '20c'),
+            path: '/docs',
+            component: ComponentCreator('/docs', '149'),
             routes: [
               {
-                path: '/Physical-AI-Book/docs/about',
-                component: ComponentCreator('/Physical-AI-Book/docs/about', '3ef'),
+                path: '/docs/about',
+                component: ComponentCreator('/docs/about', '3fb'),
                 exact: true
               },
               {
-                path: '/Physical-AI-Book/docs/conclusion',
-                component: ComponentCreator('/Physical-AI-Book/docs/conclusion', '2b5'),
+                path: '/docs/conclusion',
+                component: ComponentCreator('/docs/conclusion', '0aa'),
                 exact: true
               },
               {
-                path: '/Physical-AI-Book/docs/development-setup',
-                component: ComponentCreator('/Physical-AI-Book/docs/development-setup', '7c2'),
+                path: '/docs/development-setup',
+                component: ComponentCreator('/docs/development-setup', 'f49'),
                 exact: true
               },
               {
-                path: '/Physical-AI-Book/docs/faq',
-                component: ComponentCreator('/Physical-AI-Book/docs/faq', 'c0d'),
+                path: '/docs/faq',
+                component: ComponentCreator('/docs/faq', '489'),
                 exact: true
               },
               {
-                path: '/Physical-AI-Book/docs/intro',
-                component: ComponentCreator('/Physical-AI-Book/docs/intro', '1df'),
+                path: '/docs/intro',
+                component: ComponentCreator('/docs/intro', '61d'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/Physical-AI-Book/docs/module1/basics',
-                component: ComponentCreator('/Physical-AI-Book/docs/module1/basics', '2a6'),
+                path: '/docs/module1/basics',
+                component: ComponentCreator('/docs/module1/basics', '314'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/Physical-AI-Book/docs/module1/intro',
-                component: ComponentCreator('/Physical-AI-Book/docs/module1/intro', '2dd'),
+                path: '/docs/module1/intro',
+                component: ComponentCreator('/docs/module1/intro', 'f8b'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/Physical-AI-Book/docs/module1/nodes',
-                component: ComponentCreator('/Physical-AI-Book/docs/module1/nodes', '414'),
+                path: '/docs/module1/nodes',
+                component: ComponentCreator('/docs/module1/nodes', '1a0'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/Physical-AI-Book/docs/module1/projects',
-                component: ComponentCreator('/Physical-AI-Book/docs/module1/projects', 'bce'),
+                path: '/docs/module1/projects',
+                component: ComponentCreator('/docs/module1/projects', '996'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/Physical-AI-Book/docs/module1/topics',
-                component: ComponentCreator('/Physical-AI-Book/docs/module1/topics', '860'),
+                path: '/docs/module1/topics',
+                component: ComponentCreator('/docs/module1/topics', 'ac6'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/Physical-AI-Book/docs/module2/gazebo',
-                component: ComponentCreator('/Physical-AI-Book/docs/module2/gazebo', '20c'),
+                path: '/docs/module2/gazebo',
+                component: ComponentCreator('/docs/module2/gazebo', '12c'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/Physical-AI-Book/docs/module2/integration',
-                component: ComponentCreator('/Physical-AI-Book/docs/module2/integration', 'caf'),
+                path: '/docs/module2/integration',
+                component: ComponentCreator('/docs/module2/integration', '893'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/Physical-AI-Book/docs/module2/intro',
-                component: ComponentCreator('/Physical-AI-Book/docs/module2/intro', '826'),
+                path: '/docs/module2/intro',
+                component: ComponentCreator('/docs/module2/intro', '1bb'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/Physical-AI-Book/docs/module2/projects',
-                component: ComponentCreator('/Physical-AI-Book/docs/module2/projects', '5ce'),
+                path: '/docs/module2/projects',
+                component: ComponentCreator('/docs/module2/projects', '338'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/Physical-AI-Book/docs/module2/unity',
-                component: ComponentCreator('/Physical-AI-Book/docs/module2/unity', '865'),
+                path: '/docs/module2/unity',
+                component: ComponentCreator('/docs/module2/unity', '084'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/Physical-AI-Book/docs/module3/intro',
-                component: ComponentCreator('/Physical-AI-Book/docs/module3/intro', '1ad'),
+                path: '/docs/module3/intro',
+                component: ComponentCreator('/docs/module3/intro', '937'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/Physical-AI-Book/docs/module3/isaac',
-                component: ComponentCreator('/Physical-AI-Book/docs/module3/isaac', 'ca4'),
+                path: '/docs/module3/isaac',
+                component: ComponentCreator('/docs/module3/isaac', '61a'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/Physical-AI-Book/docs/module3/navigation',
-                component: ComponentCreator('/Physical-AI-Book/docs/module3/navigation', '6a2'),
+                path: '/docs/module3/navigation',
+                component: ComponentCreator('/docs/module3/navigation', 'ee6'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/Physical-AI-Book/docs/module3/perception',
-                component: ComponentCreator('/Physical-AI-Book/docs/module3/perception', '761'),
+                path: '/docs/module3/perception',
+                component: ComponentCreator('/docs/module3/perception', '89d'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/Physical-AI-Book/docs/module3/projects',
-                component: ComponentCreator('/Physical-AI-Book/docs/module3/projects', '3d9'),
+                path: '/docs/module3/projects',
+                component: ComponentCreator('/docs/module3/projects', '634'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/Physical-AI-Book/docs/module4/conclusion',
-                component: ComponentCreator('/Physical-AI-Book/docs/module4/conclusion', '30e'),
+                path: '/docs/module4/conclusion',
+                component: ComponentCreator('/docs/module4/conclusion', 'cd3'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/Physical-AI-Book/docs/module4/integration',
-                component: ComponentCreator('/Physical-AI-Book/docs/module4/integration', '726'),
+                path: '/docs/module4/integration',
+                component: ComponentCreator('/docs/module4/integration', 'c91'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/Physical-AI-Book/docs/module4/intro',
-                component: ComponentCreator('/Physical-AI-Book/docs/module4/intro', '13e'),
+                path: '/docs/module4/intro',
+                component: ComponentCreator('/docs/module4/intro', 'b26'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/Physical-AI-Book/docs/module4/projects',
-                component: ComponentCreator('/Physical-AI-Book/docs/module4/projects', 'ad9'),
+                path: '/docs/module4/projects',
+                component: ComponentCreator('/docs/module4/projects', 'da2'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/Physical-AI-Book/docs/module4/vla',
-                component: ComponentCreator('/Physical-AI-Book/docs/module4/vla', '019'),
+                path: '/docs/module4/vla',
+                component: ComponentCreator('/docs/module4/vla', '37b'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               }
@@ -172,8 +172,8 @@ export default [
     ]
   },
   {
-    path: '/Physical-AI-Book/',
-    component: ComponentCreator('/Physical-AI-Book/', '2d6'),
+    path: '/',
+    component: ComponentCreator('/', '2e1'),
     exact: true
   },
   {
