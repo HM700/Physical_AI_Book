@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "build": "cd frontend && npm run build",
-    "start": "cd frontend && npm run serve"
+    "build": "npm --prefix frontend run build",
+    "start": "npm --prefix frontend run serve"
   },
   "engines": {
     "node": ">=20.0"
