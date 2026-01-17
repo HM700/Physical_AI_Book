@@ -86,7 +86,10 @@
       "Bash(git commit -m \"Add logo to correct static/img directory\n\n- Copy logo.svg to frontend/static/img/ directory\n- This ensures the logo is available at the path referenced in docusaurus.config.js\")",
       "Bash(git commit -m \"Configure project for Vercel deployment\n\n- Add vercel.json configuration files for root and frontend\n- Update docusaurus.config.js for Vercel deployment\n- Set baseUrl to ''/'' and update URL for Vercel\n- Remove GitHub Pages specific configurations\")",
       "Bash(git commit -m \"Fix Vercel build configuration\n\n- Add root package.json with proper build script that navigates to frontend\n- Simplify vercel.json configurations to avoid conflicts\n- Ensure build command runs from correct directory\")",
-      "Bash(git commit -m \"Fix package.json configurations for Vercel deployment\n\n- Update root package.json build script to use npm ci instead of npm install\n- Add prebuild script to ensure dependencies are installed\n- Fix frontend package.json engines specification\n- Remove duplicate closing brace in frontend package.json\")"
+      "Bash(git commit -m \"Fix package.json configurations for Vercel deployment\n\n- Update root package.json build script to use npm ci instead of npm install\n- Add prebuild script to ensure dependencies are installed\n- Fix frontend package.json engines specification\n- Remove duplicate closing brace in frontend package.json\")",
+      "Bash(npm --version)",
+      "Bash(npm run build --verbose)",
+      "Bash(echo \"Exit code: $?\")"
     ]
   }
 }
