@@ -78,7 +78,9 @@
       "Bash(powershell -Command \"Stop-Process -Id 14672 -Force\")",
       "Bash(powershell Get-Content \"C:\\\\Users\\\\user\\\\AppData\\\\Local\\\\Temp\\\\claude\\\\C--Users-user-Desktop-Physical-AI-Book\\\\tasks\\\\bf768dc.output\")",
       "Bash(node --version)",
-      "Bash(git add .)"
+      "Bash(git add .)",
+      "Bash(git commit -m \"Configure Docusaurus for GitHub Pages deployment\n\n- Updated docusaurus.config.js with correct GitHub Pages settings\n- Fixed organizationName and projectName to match GitHub username/repo\n- Updated editUrl to point to correct repository\n- Added GitHub Actions workflow for automated deployment\n- Configured proper baseUrl and URL for GitHub Pages\")",
+      "Bash(git push origin master)"
     ]
   }
 }
