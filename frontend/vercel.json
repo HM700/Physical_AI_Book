@@ -15,11 +15,6 @@
       "src": "/(.*)",
       "dest": "/index.html"
     }
-  ],
-  "retries": [
-    {
-      "source": "/(.*)",
-      "destination": "/"
-    }
+ 
   ]
 }
