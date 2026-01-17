@@ -3,41 +3,6 @@ import ComponentCreator from '@docusaurus/ComponentCreator';
 
 export default [
   {
-    path: '/Physical-AI-Book/__docusaurus/debug',
-    component: ComponentCreator('/Physical-AI-Book/__docusaurus/debug', 'c84'),
-    exact: true
-  },
-  {
-    path: '/Physical-AI-Book/__docusaurus/debug/config',
-    component: ComponentCreator('/Physical-AI-Book/__docusaurus/debug/config', '576'),
-    exact: true
-  },
-  {
-    path: '/Physical-AI-Book/__docusaurus/debug/content',
-    component: ComponentCreator('/Physical-AI-Book/__docusaurus/debug/content', '613'),
-    exact: true
-  },
-  {
-    path: '/Physical-AI-Book/__docusaurus/debug/globalData',
-    component: ComponentCreator('/Physical-AI-Book/__docusaurus/debug/globalData', 'b7e'),
-    exact: true
-  },
-  {
-    path: '/Physical-AI-Book/__docusaurus/debug/metadata',
-    component: ComponentCreator('/Physical-AI-Book/__docusaurus/debug/metadata', 'a54'),
-    exact: true
-  },
-  {
-    path: '/Physical-AI-Book/__docusaurus/debug/registry',
-    component: ComponentCreator('/Physical-AI-Book/__docusaurus/debug/registry', '0eb'),
-    exact: true
-  },
-  {
-    path: '/Physical-AI-Book/__docusaurus/debug/routes',
-    component: ComponentCreator('/Physical-AI-Book/__docusaurus/debug/routes', 'e7b'),
-    exact: true
-  },
-  {
     path: '/Physical-AI-Book/layout',
     component: ComponentCreator('/Physical-AI-Book/layout', '608'),
     exact: true

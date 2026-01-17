@@ -7,7 +7,7 @@ export default {
   "title": "Physical AI Book",
   "tagline": "Learn Physical AI: AI systems that perceive, reason, and act in the physical world",
   "favicon": "img/favicon.ico",
-  "url": "https://your-docusaurus-site.example.com",
+  "url": "https://github.com/HM700/Physical_AI_Book.git",
   "baseUrl": "/Physical-AI-Book/",
   "organizationName": "PhysicalAI",
   "projectName": "Physical-AI-Book",

@@ -13,15 +13,16 @@ const config = {
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
-  url: 'https://your-docusaurus-site.example.com',
+  url: 'https://hm700.github.io',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/Physical-AI-Book',
+  baseUrl: '/Physical_AI_Book/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'PhysicalAI', // Usually your GitHub org/user name.
-  projectName: 'Physical-AI-Book', // Usually your repo name.
+  organizationName: 'HM700', // Usually your GitHub org/user name.
+  projectName: 'Physical_AI_Book', // Usually your repo name.
+  deploymentBranch: 'gh-pages', // The branch to deploy to.
 
   onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
@@ -44,14 +45,14 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+            'https://github.com/HM700/Physical_AI_Book/edit/master/frontend/',
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+            'https://github.com/HM700/Physical_AI_Book/edit/master/frontend/',
         },
         theme: {
           customCss: './src/css/custom.css',
@@ -95,7 +96,7 @@ const config = {
             label: 'Modules',
           },
           {
-            href: 'https://github.com/PhysicalAI/Physical-AI-Book',
+            href: 'https://github.com/HM700/Physical_AI_Book',
             label: 'GitHub',
             position: 'right',
           },
@@ -143,7 +144,7 @@ const config = {
             items: [
               {
                 label: 'GitHub',
-                href: 'https://github.com/PhysicalAI/Physical-AI-Book',
+                href: 'https://github.com/HM700/Physical_AI_Book',
               },
             ],
           },
@@ -158,3 +159,4 @@ const config = {
 };
 
 export default config;
+

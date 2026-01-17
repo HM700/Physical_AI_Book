@@ -1,172 +1,129 @@
 {
-  "/Physical-AI-Book/__docusaurus/debug-c84": {
-    "__comp": "__comp---theme-debug-config-23-a-2ff",
-    "__context": {
-      "plugin": "plugin---physical-ai-book-docusaurus-debugb-38-cdd"
-    }
-  },
-  "/Physical-AI-Book/__docusaurus/debug/config-576": {
-    "__comp": "__comp---theme-debug-config-23-a-2ff",
-    "__context": {
-      "plugin": "plugin---physical-ai-book-docusaurus-debugb-38-cdd"
-    }
-  },
-  "/Physical-AI-Book/__docusaurus/debug/content-613": {
-    "__comp": "__comp---theme-debug-contentba-8-ce7",
-    "__context": {
-      "plugin": "plugin---physical-ai-book-docusaurus-debugb-38-cdd"
-    },
-    "__props": "__props---physical-ai-book-docusaurus-debug-content-2-be-c7f"
-  },
-  "/Physical-AI-Book/__docusaurus/debug/globalData-b7e": {
-    "__comp": "__comp---theme-debug-global-dataede-0fa",
-    "__context": {
-      "plugin": "plugin---physical-ai-book-docusaurus-debugb-38-cdd"
-    }
-  },
-  "/Physical-AI-Book/__docusaurus/debug/metadata-a54": {
-    "__comp": "__comp---theme-debug-site-metadata-68-e-3d4",
-    "__context": {
-      "plugin": "plugin---physical-ai-book-docusaurus-debugb-38-cdd"
-    }
-  },
-  "/Physical-AI-Book/__docusaurus/debug/registry-0eb": {
-    "__comp": "__comp---theme-debug-registry-679-501",
-    "__context": {
-      "plugin": "plugin---physical-ai-book-docusaurus-debugb-38-cdd"
-    }
-  },
-  "/Physical-AI-Book/__docusaurus/debug/routes-e7b": {
-    "__comp": "__comp---theme-debug-routes-946-699",
-    "__context": {
-      "plugin": "plugin---physical-ai-book-docusaurus-debugb-38-cdd"
-    }
-  },
   "/Physical-AI-Book/layout-608": {
-    "__comp": "__comp---site-src-pages-layout-jsf-27-85f",
+    "__comp": "f27de8db",
     "__context": {
-      "plugin": "plugin---physical-ai-book-layouta-74-5f8"
+      "plugin": "a7456010"
     },
-    "config": "config---physical-ai-book-layout-5-e-9-a12"
+    "config": "5e9f5e1a"
   },
   "/Physical-AI-Book/docs-232": {
-    "__comp": "__comp---theme-docs-root-5-e-9-0b6",
+    "__comp": "5e95c892",
     "__context": {
-      "plugin": "plugin---physical-ai-book-docsaba-ff9"
+      "plugin": "aba21aa0"
     }
   },
   "/Physical-AI-Book/docs-7b7": {
-    "__comp": "__comp---theme-doc-version-roota-7-b-5de",
-    "__props": "__props---physical-ai-book-docsce-4-757"
+    "__comp": "a7bd4aaa",
+    "__props": "ce4fa0f0"
   },
   "/Physical-AI-Book/docs-20c": {
-    "__comp": "__comp---theme-doc-roota-94-67a"
+    "__comp": "a94703ab"
   },
   "/Physical-AI-Book/docs/about-3ef": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---physical-ai-book-docs-about-3-d-8-227"
+    "__comp": "17896441",
+    "content": "3d8d21df"
   },
   "/Physical-AI-Book/docs/conclusion-2b5": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---physical-ai-book-docs-conclusion-85-b-c68"
+    "__comp": "17896441",
+    "content": "85be18e3"
   },
   "/Physical-AI-Book/docs/development-setup-7c2": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---physical-ai-book-docs-development-setupa-96-3a3"
+    "__comp": "17896441",
+    "content": "a9670040"
   },
   "/Physical-AI-Book/docs/faq-c0d": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---physical-ai-book-docs-faq-048-b88"
+    "__comp": "17896441",
+    "content": "0480b142"
   },
   "/Physical-AI-Book/docs/intro-1df": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---physical-ai-book-docs-intro-0-e-3-d33"
+    "__comp": "17896441",
+    "content": "0e384e19"
   },
   "/Physical-AI-Book/docs/module1/basics-2a6": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---physical-ai-book-docs-module-1-basicsb-7-a-b3f"
+    "__comp": "17896441",
+    "content": "b7ae3412"
   },
   "/Physical-AI-Book/docs/module1/intro-2dd": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---physical-ai-book-docs-module-1-introdd-9-26b"
+    "__comp": "17896441",
+    "content": "dd920d85"
   },
   "/Physical-AI-Book/docs/module1/nodes-414": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---physical-ai-book-docs-module-1-nodes-743-020"
+    "__comp": "17896441",
+    "content": "74308cf3"
   },
   "/Physical-AI-Book/docs/module1/projects-bce": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---physical-ai-book-docs-module-1-projects-665-4c7"
+    "__comp": "17896441",
+    "content": "66593e01"
   },
   "/Physical-AI-Book/docs/module1/topics-860": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---physical-ai-book-docs-module-1-topics-664-15c"
+    "__comp": "17896441",
+    "content": "66437c3c"
   },
   "/Physical-AI-Book/docs/module2/gazebo-20c": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---physical-ai-book-docs-module-2-gazebob-4-d-911"
+    "__comp": "17896441",
+    "content": "b4d56198"
   },
   "/Physical-AI-Book/docs/module2/integration-caf": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---physical-ai-book-docs-module-2-integration-938-a4f"
+    "__comp": "17896441",
+    "content": "938da187"
   },
   "/Physical-AI-Book/docs/module2/intro-826": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---physical-ai-book-docs-module-2-intro-542-01e"
+    "__comp": "17896441",
+    "content": "5424951c"
   },
   "/Physical-AI-Book/docs/module2/projects-5ce": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---physical-ai-book-docs-module-2-projectse-93-856"
+    "__comp": "17896441",
+    "content": "e9303df6"
   },
   "/Physical-AI-Book/docs/module2/unity-865": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---physical-ai-book-docs-module-2-unity-251-929"
+    "__comp": "17896441",
+    "content": "2518c7e4"
   },
   "/Physical-AI-Book/docs/module3/intro-1ad": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---physical-ai-book-docs-module-3-intro-23-c-8fc"
+    "__comp": "17896441",
+    "content": "23cfa132"
   },
   "/Physical-AI-Book/docs/module3/isaac-ca4": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---physical-ai-book-docs-module-3-isaac-873-d2c"
+    "__comp": "17896441",
+    "content": "873f8411"
   },
   "/Physical-AI-Book/docs/module3/navigation-6a2": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---physical-ai-book-docs-module-3-navigationa-62-262"
+    "__comp": "17896441",
+    "content": "a625f1a9"
   },
   "/Physical-AI-Book/docs/module3/perception-761": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---physical-ai-book-docs-module-3-perception-6-ba-3b0"
+    "__comp": "17896441",
+    "content": "6baca9cf"
   },
   "/Physical-AI-Book/docs/module3/projects-3d9": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---physical-ai-book-docs-module-3-projects-7-e-4-3c0"
+    "__comp": "17896441",
+    "content": "7e477b2d"
   },
   "/Physical-AI-Book/docs/module4/conclusion-30e": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---physical-ai-book-docs-module-4-conclusion-286-274"
+    "__comp": "17896441",
+    "content": "28688c2f"
   },
   "/Physical-AI-Book/docs/module4/integration-726": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---physical-ai-book-docs-module-4-integration-414-0e9"
+    "__comp": "17896441",
+    "content": "414ad953"
   },
   "/Physical-AI-Book/docs/module4/intro-13e": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---physical-ai-book-docs-module-4-introb-6-a-e7d"
+    "__comp": "17896441",
+    "content": "b6a7eda7"
   },
   "/Physical-AI-Book/docs/module4/projects-ad9": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---physical-ai-book-docs-module-4-projects-0-da-4ed"
+    "__comp": "17896441",
+    "content": "0dae308e"
   },
   "/Physical-AI-Book/docs/module4/vla-019": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---physical-ai-book-docs-module-4-vlacf-5-7e8"
+    "__comp": "17896441",
+    "content": "cf507a39"
   },
   "/Physical-AI-Book/-2d6": {
-    "__comp": "__comp---site-src-pages-index-jsc-4-f-f99",
+    "__comp": "c4f5d8e4",
     "__context": {
-      "plugin": "plugin---physical-ai-book-layouta-74-5f8"
+      "plugin": "a7456010"
     },
-    "config": "config---physical-ai-book-layout-5-e-9-a12"
+    "config": "5e9f5e1a"
   }
 }

@@ -76,7 +76,9 @@
       "Bash(powershell Get-Content \"C:\\\\Users\\\\user\\\\AppData\\\\Local\\\\Temp\\\\claude\\\\C--Users-user-Desktop-Physical-AI-Book\\\\tasks\\\\b93c146.output\")",
       "Bash(del \"C:\\\\Users\\\\user\\\\Desktop\\\\Physical_AI_Book\\\\frontend\\\\src\\\\components\\\\GlobalChatPanel.jsx\")",
       "Bash(powershell -Command \"Stop-Process -Id 14672 -Force\")",
-      "Bash(powershell Get-Content \"C:\\\\Users\\\\user\\\\AppData\\\\Local\\\\Temp\\\\claude\\\\C--Users-user-Desktop-Physical-AI-Book\\\\tasks\\\\bf768dc.output\")"
+      "Bash(powershell Get-Content \"C:\\\\Users\\\\user\\\\AppData\\\\Local\\\\Temp\\\\claude\\\\C--Users-user-Desktop-Physical-AI-Book\\\\tasks\\\\bf768dc.output\")",
+      "Bash(node --version)",
+      "Bash(git add .)"
     ]
   }
 }

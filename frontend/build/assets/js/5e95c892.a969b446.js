@@ -1,1 +1,0 @@
-"use strict";(globalThis.webpackChunkphysical_ai_book_docs=globalThis.webpackChunkphysical_ai_book_docs||[]).push([[647],{7121(s,a,e){e.r(a),e.d(a,{default:()=>u});e(6540);var c=e(4164),o=e(7559),r=e(5500),i=e(2831),l=e(1656),h=e(4848);function u(s){return(0,h.jsx)(r.e3,{className:(0,c.A)(o.G.wrapper.docsPages),children:(0,h.jsx)(l.A,{children:(0,i.v)(s.route.routes)})})}}}]);
