@@ -13,16 +13,13 @@ const config = {
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
-  url: 'https://hm700.github.io',
+  url: 'https://physical-ai-book.vercel.app',
   // Set the /<baseUrl>/ pathname under which your site is served
-  // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/Physical_AI_Book/',
+  // For Vercel deployment, use '/' for root domain
+  baseUrl: '/',
 
-  // GitHub pages deployment config.
-  // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'HM700', // Usually your GitHub org/user name.
-  projectName: 'Physical_AI_Book', // Usually your repo name.
-  deploymentBranch: 'gh-pages', // The branch to deploy to.
+  // For Vercel deployment
+  trailingSlash: false,
 
   onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
