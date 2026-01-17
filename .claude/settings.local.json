@@ -89,7 +89,9 @@
       "Bash(git commit -m \"Fix package.json configurations for Vercel deployment\n\n- Update root package.json build script to use npm ci instead of npm install\n- Add prebuild script to ensure dependencies are installed\n- Fix frontend package.json engines specification\n- Remove duplicate closing brace in frontend package.json\")",
       "Bash(npm --version)",
       "Bash(npm run build --verbose)",
-      "Bash(echo \"Exit code: $?\")"
+      "Bash(echo \"Exit code: $?\")",
+      "Bash(git add package.json)",
+      "Bash(git commit -m \"Fix root package.json for Vercel deployment\n\n- Correct project name to ''physical-ai-book''\n- Set proper build scripts that navigate to frontend directory\n- Remove unnecessary Docusaurus dependencies from root package.json\n- Keep only essential configuration for Vercel deployment\")"
     ]
   }
 }
