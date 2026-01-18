@@ -7,6 +7,6 @@
     "postinstall": "chmod +x ./node_modules/.bin/docusaurus"
   },
   "dependencies": {
-    "docusaurus": "^2.x.x"
+    "docusaurus": ">^2.x.x"
   }
 }
