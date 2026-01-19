@@ -37,7 +37,14 @@
       "Bash(pip install -e .)",
       "Bash(pip install fastapi uvicorn[standard] pydantic sqlalchemy \"qdrant-client>=1.7.0\" openai python-multipart passlib python-jose pyyaml)",
       "Bash(uvicorn src.api.main:app --reload)",
-      "Bash(pip install aiosqlite)"
+      "Bash(pip install aiosqlite)",
+      "Bash(npm run build)",
+      "Bash(npx docusaurus start --port 3001)",
+      "Bash(netstat -ano)",
+      "Bash(findstr :3000)",
+      "Bash(taskkill /PID 18048 /F)",
+      "Bash(powershell -Command \"Stop-Process -Id 18048 -Force\")",
+      "Bash(npx docusaurus start)"
     ]
   }
 }
