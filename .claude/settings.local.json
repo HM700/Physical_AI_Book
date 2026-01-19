@@ -44,7 +44,13 @@
       "Bash(findstr :3000)",
       "Bash(taskkill /PID 18048 /F)",
       "Bash(powershell -Command \"Stop-Process -Id 18048 -Force\")",
-      "Bash(npx docusaurus start)"
+      "Bash(npx docusaurus start)",
+      "Bash(curl -I http://localhost:3000)",
+      "Bash(curl -s http://localhost:3000)",
+      "Bash(curl -I http://localhost:8000)",
+      "Bash(docker-compose up -d)",
+      "Bash(curl -s http://localhost:3000/api/)",
+      "Bash(find frontend/docs -name \"*.md\" -exec grep -l \"api\\\\|API\\\\|backend\\\\|endpoint\" {} ;)"
     ]
   }
 }
