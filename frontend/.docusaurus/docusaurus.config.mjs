@@ -9,8 +9,24 @@ export default {
   "favicon": "img/favicon.ico",
   "url": "https://physical-ai-book.vercel.app",
   "baseUrl": "/",
-  "trailingSlash": false,
-  "onBrokenLinks": "warn",
+  "trailingSlash": true,
+  "markdown": {
+    "hooks": {
+      "onBrokenMarkdownLinks": "warn",
+      "onBrokenMarkdownImages": "throw"
+    },
+    "format": "mdx",
+    "mermaid": false,
+    "emoji": true,
+    "mdx1Compat": {
+      "comments": true,
+      "admonitions": true,
+      "headingIds": true
+    },
+    "anchors": {
+      "maintainCase": false
+    }
+  },
   "i18n": {
     "defaultLocale": "en",
     "locales": [
@@ -22,21 +38,19 @@ export default {
   "presets": [
     [
       "classic",
-    {
-  docs: {
-    sidebarPath: require.resolve('./sidebars.js'),
-    routeBasePath: '/', // ✅ FIX: makes docs the homepage
-    editUrl: 'https://github.com/HM700/Physical_AI_Book/edit/master/frontend/',
-  },
-  blog: {
-    showReadingTime: true,
-    editUrl: 'https://github.com/HM700/Physical_AI_Book/edit/master/frontend/',
-  },
-  theme: {
-    customCss: require.resolve('./src/css/custom.css'),
-  },
-}
-
+      {
+        "docs": {
+          "sidebarPath": "./sidebars.js",
+          "editUrl": "https://github.com/HM700/Physical_AI_Book/edit/master/frontend/"
+        },
+        "blog": {
+          "showReadingTime": true,
+          "editUrl": "https://github.com/HM700/Physical_AI_Book/edit/master/frontend/"
+        },
+        "theme": {
+          "customCss": "./src/css/custom.css"
+        }
+      }
     ]
   ],
   "plugins": [
@@ -363,6 +377,7 @@ export default {
     },
     "experimental_router": "browser"
   },
+  "onBrokenLinks": "throw",
   "onBrokenAnchors": "warn",
   "onDuplicateRoutes": "warn",
   "staticDirectories": [
@@ -375,22 +390,5 @@ export default {
   "stylesheets": [],
   "clientModules": [],
   "titleDelimiter": "|",
-  "noIndex": false,
-  "markdown": {
-    "format": "mdx",
-    "mermaid": false,
-    "emoji": true,
-    "mdx1Compat": {
-      "comments": true,
-      "admonitions": true,
-      "headingIds": true
-    },
-    "anchors": {
-      "maintainCase": false
-    },
-    "hooks": {
-      "onBrokenMarkdownLinks": "warn",
-      "onBrokenMarkdownImages": "throw"
-    }
-  }
+  "noIndex": false
 };

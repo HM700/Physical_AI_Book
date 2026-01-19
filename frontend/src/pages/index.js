@@ -22,9 +22,10 @@ function HomepageHeader() {
         <div className={styles.buttons}>
           <Link
             className="button button--secondary button--lg"
-            to="/intro"> {/* ✅ FIXED */}
+            to="/docs/intro"> {/* ✅ FIXED */}
             Start Learning Physical AI
-          </Link>
+          </Link>clsxcls
+          
         </div>
       </div>
     </header>

@@ -3,165 +3,165 @@ import ComponentCreator from '@docusaurus/ComponentCreator';
 
 export default [
   {
-    path: '/layout',
-    component: ComponentCreator('/layout', '1f9'),
+    path: '/layout/',
+    component: ComponentCreator('/layout/', '16a'),
     exact: true
   },
   {
-    path: '/docs',
-    component: ComponentCreator('/docs', '475'),
+    path: '/docs/',
+    component: ComponentCreator('/docs/', 'f56'),
     routes: [
       {
-        path: '/docs',
-        component: ComponentCreator('/docs', '4c6'),
+        path: '/docs/',
+        component: ComponentCreator('/docs/', '060'),
         routes: [
           {
-            path: '/docs',
-            component: ComponentCreator('/docs', '149'),
+            path: '/docs/',
+            component: ComponentCreator('/docs/', 'e94'),
             routes: [
               {
-                path: '/docs/about',
-                component: ComponentCreator('/docs/about', '3fb'),
+                path: '/docs/about/',
+                component: ComponentCreator('/docs/about/', 'a69'),
                 exact: true
               },
               {
-                path: '/docs/conclusion',
-                component: ComponentCreator('/docs/conclusion', '0aa'),
+                path: '/docs/conclusion/',
+                component: ComponentCreator('/docs/conclusion/', 'e4c'),
                 exact: true
               },
               {
-                path: '/docs/development-setup',
-                component: ComponentCreator('/docs/development-setup', 'f49'),
+                path: '/docs/development-setup/',
+                component: ComponentCreator('/docs/development-setup/', '18b'),
                 exact: true
               },
               {
-                path: '/docs/faq',
-                component: ComponentCreator('/docs/faq', '489'),
+                path: '/docs/faq/',
+                component: ComponentCreator('/docs/faq/', '947'),
                 exact: true
               },
               {
-                path: '/docs/intro',
-                component: ComponentCreator('/docs/intro', '61d'),
+                path: '/docs/intro/',
+                component: ComponentCreator('/docs/intro/', 'e44'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/module1/basics',
-                component: ComponentCreator('/docs/module1/basics', '314'),
+                path: '/docs/module1/basics/',
+                component: ComponentCreator('/docs/module1/basics/', '41b'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/module1/intro',
-                component: ComponentCreator('/docs/module1/intro', 'f8b'),
+                path: '/docs/module1/intro/',
+                component: ComponentCreator('/docs/module1/intro/', '914'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/module1/nodes',
-                component: ComponentCreator('/docs/module1/nodes', '1a0'),
+                path: '/docs/module1/nodes/',
+                component: ComponentCreator('/docs/module1/nodes/', '48f'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/module1/projects',
-                component: ComponentCreator('/docs/module1/projects', '996'),
+                path: '/docs/module1/projects/',
+                component: ComponentCreator('/docs/module1/projects/', '0ef'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/module1/topics',
-                component: ComponentCreator('/docs/module1/topics', 'ac6'),
+                path: '/docs/module1/topics/',
+                component: ComponentCreator('/docs/module1/topics/', 'a87'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/module2/gazebo',
-                component: ComponentCreator('/docs/module2/gazebo', '12c'),
+                path: '/docs/module2/gazebo/',
+                component: ComponentCreator('/docs/module2/gazebo/', 'b5f'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/module2/integration',
-                component: ComponentCreator('/docs/module2/integration', '893'),
+                path: '/docs/module2/integration/',
+                component: ComponentCreator('/docs/module2/integration/', 'b00'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/module2/intro',
-                component: ComponentCreator('/docs/module2/intro', '1bb'),
+                path: '/docs/module2/intro/',
+                component: ComponentCreator('/docs/module2/intro/', 'c95'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/module2/projects',
-                component: ComponentCreator('/docs/module2/projects', '338'),
+                path: '/docs/module2/projects/',
+                component: ComponentCreator('/docs/module2/projects/', 'bfb'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/module2/unity',
-                component: ComponentCreator('/docs/module2/unity', '084'),
+                path: '/docs/module2/unity/',
+                component: ComponentCreator('/docs/module2/unity/', 'a8c'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/module3/intro',
-                component: ComponentCreator('/docs/module3/intro', '937'),
+                path: '/docs/module3/intro/',
+                component: ComponentCreator('/docs/module3/intro/', 'eec'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/module3/isaac',
-                component: ComponentCreator('/docs/module3/isaac', '61a'),
+                path: '/docs/module3/isaac/',
+                component: ComponentCreator('/docs/module3/isaac/', 'fdb'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/module3/navigation',
-                component: ComponentCreator('/docs/module3/navigation', 'ee6'),
+                path: '/docs/module3/navigation/',
+                component: ComponentCreator('/docs/module3/navigation/', '49f'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/module3/perception',
-                component: ComponentCreator('/docs/module3/perception', '89d'),
+                path: '/docs/module3/perception/',
+                component: ComponentCreator('/docs/module3/perception/', '72e'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/module3/projects',
-                component: ComponentCreator('/docs/module3/projects', '634'),
+                path: '/docs/module3/projects/',
+                component: ComponentCreator('/docs/module3/projects/', 'bd1'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/module4/conclusion',
-                component: ComponentCreator('/docs/module4/conclusion', 'cd3'),
+                path: '/docs/module4/conclusion/',
+                component: ComponentCreator('/docs/module4/conclusion/', '5a4'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/module4/integration',
-                component: ComponentCreator('/docs/module4/integration', 'c91'),
+                path: '/docs/module4/integration/',
+                component: ComponentCreator('/docs/module4/integration/', 'bbc'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/module4/intro',
-                component: ComponentCreator('/docs/module4/intro', 'b26'),
+                path: '/docs/module4/intro/',
+                component: ComponentCreator('/docs/module4/intro/', '682'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/module4/projects',
-                component: ComponentCreator('/docs/module4/projects', 'da2'),
+                path: '/docs/module4/projects/',
+                component: ComponentCreator('/docs/module4/projects/', 'd4d'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/module4/vla',
-                component: ComponentCreator('/docs/module4/vla', '37b'),
+                path: '/docs/module4/vla/',
+                component: ComponentCreator('/docs/module4/vla/', '94e'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               }
