@@ -356,7 +356,7 @@ export default {
       "maxHeadingLevel": 3
     }
   },
-  "baseUrlIssueBanner": true,
+  "baseUrlIssueBanner": false,
   "future": {
     "v4": {
       "removeLegacyPostBuildHeadAttribute": false,
