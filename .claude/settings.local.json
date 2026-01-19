@@ -100,7 +100,15 @@
       "Bash(docker-compose up -d)",
       "Bash(uvicorn src.api.main:app --reload --port 8000)",
       "Bash(curl http://localhost:8000/health)",
-      "Bash(curl http://localhost:8000/)"
+      "Bash(curl http://localhost:8000/)",
+      "Bash(npm run serve)",
+      "Bash(taskkill /PID 18048 /F)",
+      "Bash(taskkill /f /pid 18048)",
+      "Bash(powershell -Command \"Get-NetTCPConnection -LocalPort 3000 | Select-Object -ExpandProperty OwningProcess | ForEach-Object {Stop-Process -Id $_-Force}\")",
+      "Bash(lsof -i :3000)",
+      "Bash(npx serve -s build -l 3001)",
+      "Bash(curl http://localhost:3001)",
+      "Bash(findstr \"\\\\\")"
     ]
   }
 }
