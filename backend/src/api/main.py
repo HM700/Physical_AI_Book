@@ -22,9 +22,20 @@ app.include_router(courses.router, prefix="/courses", tags=["courses"])
 app.include_router(progress.router, prefix="/progress", tags=["progress"])
 app.include_router(chat.router, prefix="/chat", tags=["chat"])
 
+import asyncio
+
 @app.on_event("startup")
 async def startup_event():
-    await rag_service.initialize()
+    # Initialize RAG service in the background to not block startup
+    asyncio.create_task(initialize_rag_service())
+
+async def initialize_rag_service():
+    try:
+        await rag_service.initialize()
+        print("RAG service initialized successfully")
+    except Exception as e:
+        print(f"Warning: Could not initialize RAG service: {e}")
+        print("Some features may be unavailable until dependencies are configured")
 
 @app.get("/")
 def read_root():

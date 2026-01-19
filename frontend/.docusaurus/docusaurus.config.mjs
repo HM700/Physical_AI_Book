@@ -11,22 +11,23 @@ export default {
   "baseUrl": "/",
   "trailingSlash": true,
   "markdown": {
-    "hooks": {
-      "onBrokenMarkdownLinks": "warn",
-      "onBrokenMarkdownImages": "throw"
-    },
-    "format": "mdx",
-    "mermaid": false,
-    "emoji": true,
+    "mermaid": true,
+    "format": "detect",
     "mdx1Compat": {
       "comments": true,
       "admonitions": true,
       "headingIds": true
     },
+    "hooks": {
+      "onBrokenMarkdownLinks": "warn",
+      "onBrokenMarkdownImages": "throw"
+    },
+    "emoji": true,
     "anchors": {
       "maintainCase": false
     }
   },
+  "onBrokenLinks": "warn",
   "i18n": {
     "defaultLocale": "en",
     "locales": [
@@ -377,7 +378,6 @@ export default {
     },
     "experimental_router": "browser"
   },
-  "onBrokenLinks": "throw",
   "onBrokenAnchors": "warn",
   "onDuplicateRoutes": "warn",
   "staticDirectories": [

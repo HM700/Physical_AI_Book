@@ -94,7 +94,13 @@
       "Bash(git commit -m \"Fix root package.json for Vercel deployment\n\n- Correct project name to ''physical-ai-book''\n- Set proper build scripts that navigate to frontend directory\n- Remove unnecessary Docusaurus dependencies from root package.json\n- Keep only essential configuration for Vercel deployment\")",
       "Bash(git commit -m \"Complete Vercel configuration for Docusaurus deployment\n\n- Add proper vercel.json with version 2 configuration\n- Specify static-build for Docusaurus project\n- Set correct distDir to ''build''\n- Remove build scripts from root package.json to avoid conflicts\n- Configure SPA routing for client-side navigation\")",
       "Bash(git commit -m \"Final Vercel deployment configuration\n\n- Update package.json with proper project name and build scripts\n- Set trailingSlash to true for proper Vercel routing\n- Ensure all configurations are optimized for Vercel deployment\")",
-      "Bash(git commit -m \"Fix Vercel config for Docusaurus deployment\")"
+      "Bash(git commit -m \"Fix Vercel config for Docusaurus deployment\")",
+      "Bash(docker --version)",
+      "Bash(docker-compose --version)",
+      "Bash(docker-compose up -d)",
+      "Bash(uvicorn src.api.main:app --reload --port 8000)",
+      "Bash(curl http://localhost:8000/health)",
+      "Bash(curl http://localhost:8000/)"
     ]
   }
 }

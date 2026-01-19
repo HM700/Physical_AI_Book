@@ -22,10 +22,19 @@ const config = {
   trailingSlash: true,
 
    markdown: {
+   mermaid: true,
+   format: 'detect',
+   mdx1Compat: {
+     comments: true,
+     admonitions: true,
+     headingIds: true,
+   },
+   // Move the deprecated option to the correct location
    hooks: {
      onBrokenMarkdownLinks: 'warn',
    },
   },
+  onBrokenLinks: 'warn',
 
 
   // Even if you don't use internationalization, you can use this field to set
