@@ -108,7 +108,8 @@
       "Bash(lsof -i :3000)",
       "Bash(npx serve -s build -l 3001)",
       "Bash(curl http://localhost:3001)",
-      "Bash(findstr \"\\\\\")"
+      "Bash(findstr \"\\\\\")",
+      "Bash(find frontend/src -name \"*.js\" -exec grep -l \"module-card\\\\|exercise-card\\\\|interactive-code\\\\|chat-panel\" {} ;)"
     ]
   }
 }
