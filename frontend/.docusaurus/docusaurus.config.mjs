@@ -41,6 +41,7 @@ export default {
       "classic",
       {
         "docs": {
+          "routeBasePath": 'docs', // ✅ REQUIRED
           "sidebarPath": "./sidebars.js",
           "editUrl": "https://github.com/HM700/Physical_AI_Book/edit/master/frontend/"
         },
@@ -356,7 +357,7 @@ export default {
       "maxHeadingLevel": 3
     }
   },
-  "baseUrlIssueBanner": true,
+  "baseUrlIssueBanner": false,
   "future": {
     "v4": {
       "removeLegacyPostBuildHeadAttribute": false,
