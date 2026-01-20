@@ -24,7 +24,7 @@ export default {
     },
     "emoji": true,
     "anchors": {
-      "maintainCase": false,
+      "maintainCase": false
     }
   },
   "onBrokenLinks": "warn",
