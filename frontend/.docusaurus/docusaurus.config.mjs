@@ -41,16 +41,9 @@ export default {
       "classic",
       {
         "docs": {
-          "sidebarPath": "./sidebars.js",
-          "editUrl": "https://github.com/HM700/Physical_AI_Book/edit/master/frontend/"
-        },
-        "blog": {
-          "showReadingTime": true,
-          "editUrl": "https://github.com/HM700/Physical_AI_Book/edit/master/frontend/"
-        },
-        "theme": {
-          "customCss": "./src/css/custom.css"
-        }
+         routeBasePath: 'docs',
+     }
+
       }
     ]
   ],
