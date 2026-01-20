@@ -41,8 +41,9 @@ export default {
       "classic",
       {
         "docs": {
-         routeBasePath: 'docs',
-     }
+         routeBasePath: 'docs', 
+          "sidebarPath": require.resolve("../sidebars.js"),
+      }
 
       }
     ]
