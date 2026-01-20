@@ -41,7 +41,6 @@ export default {
       "classic",
       {
         "docs": {
-          "routeBasePath": "docs",
           "sidebarPath": "./sidebars.js",
           "editUrl": "https://github.com/HM700/Physical_AI_Book/edit/master/frontend/"
         },
