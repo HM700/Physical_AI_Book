@@ -9,7 +9,7 @@
 }
 
 .chatContainer {
-  position: fixed;
+  position: floating;
   bottom: 2rem;
   right: 2rem;
   z-index: var(--z-index-chat);

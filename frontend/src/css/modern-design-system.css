@@ -81,6 +81,18 @@
   --z-index-popover: 1060;
   --z-index-tooltip: 1070;
   --z-index-chat-panel: 9999;
+  --z-index-chat: 9998;
+  --bg-disabled: #e9ecef;
+  --text-dark: #212529;
+  --text-light: #ffffff;
+  --bg-darker: #343a40;
+  --text-gray: #6c757d;
+  --border-color-light: #e9ecef;
+  --tag-bg: #e9ecef;
+  --tag-text: #495057;
+  --tag-bg-secondary: #f8f9fa;
+  --tag-text-secondary: #6c757d;
+  --primary-hover: #246843;
 }
 
 /* Typography */
