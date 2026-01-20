@@ -52,7 +52,15 @@
       "Bash(curl -s http://localhost:3000/api/)",
       "Bash(find frontend/docs -name \"*.md\" -exec grep -l \"api\\\\|API\\\\|backend\\\\|endpoint\" {} ;)",
       "Bash(npx serve build)",
-      "Bash(powershell -Command \"Get-Content ''C:\\\\Users\\\\user\\\\Desktop\\\\Physical_AI_Book\\\\frontend\\\\build\\\\assets\\\\js\\\\main.3e11edc8.js'' -Head 20\")"
+      "Bash(powershell -Command \"Get-Content ''C:\\\\Users\\\\user\\\\Desktop\\\\Physical_AI_Book\\\\frontend\\\\build\\\\assets\\\\js\\\\main.3e11edc8.js'' -Head 20\")",
+      "Bash(./create-new-feature.ps1 -Json \"need to rewrite and regenerate main.js , main.9c290293.js: , and delete the main.9c290293.js: which causing errors to HTML\" -Number 1 -ShortName \"fix-js-build-error\" \"Fix JS build error\")",
+      "Bash(.specify/scripts/powershell/setup-plan.ps1 -Json)",
+      "Bash(.specify/scripts/powershell/update-agent-context.ps1 -AgentType claude)",
+      "Bash(.specify/scripts/powershell/check-prerequisites.ps1 -Json)",
+      "Bash(.specify/scripts/powershell/check-prerequisites.ps1 -Json -RequireTasks -IncludeTasks)",
+      "Bash(node --version)",
+      "Bash(npm --version)",
+      "Bash(ls -la build/assets/js/main*.js)"
     ]
   }
 }
