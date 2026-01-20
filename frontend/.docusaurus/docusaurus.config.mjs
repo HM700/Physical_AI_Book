@@ -23,23 +23,22 @@ const config = {
   },
 
   presets: [
-    [
-      'classic',
-      {
-        docs: {
-          sidebarPath: './sidebars.js',
-          editUrl: 'https://github.com/HM700/Physical_AI_Book/edit/master/frontend/',
-        },
-        blog: {
-          showReadingTime: true,
-          editUrl: 'https://github.com/HM700/Physical_AI_Book/edit/master/frontend/',
-        },
-        theme: {
-          customCss: './src/css/custom.css',
-        },
+  [
+    'classic',
+    {
+      docs: {
+        routeBasePath: '/',   // 👈 IMPORTANT
+        sidebarPath: './sidebars.js',
+        editUrl: 'https://github.com/HM700/Physical_AI_Book/edit/master/frontend/',
       },
-    ],
+      blog: false,
+      theme: {
+        customCss: './src/css/custom.css',
+      },
+    },
   ],
+],
+
 
   themeConfig: {
     image: 'img/docusaurus-social-card.jpg',
