@@ -50,7 +50,9 @@
       "Bash(curl -I http://localhost:8000)",
       "Bash(docker-compose up -d)",
       "Bash(curl -s http://localhost:3000/api/)",
-      "Bash(find frontend/docs -name \"*.md\" -exec grep -l \"api\\\\|API\\\\|backend\\\\|endpoint\" {} ;)"
+      "Bash(find frontend/docs -name \"*.md\" -exec grep -l \"api\\\\|API\\\\|backend\\\\|endpoint\" {} ;)",
+      "Bash(npx serve build)",
+      "Bash(powershell -Command \"Get-Content ''C:\\\\Users\\\\user\\\\Desktop\\\\Physical_AI_Book\\\\frontend\\\\build\\\\assets\\\\js\\\\main.3e11edc8.js'' -Head 20\")"
     ]
   }
 }
